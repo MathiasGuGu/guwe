@@ -1,0 +1,45 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+@theme inline {
+	--color-blue-background: #e9faf9;
+	--color-blue-heading: #1f7b8f;
+	--color-blue-paragraph: #788391;
+
+	--color-light-purple-background: #f7f5fa;
+	--color-light-purple-heading: #070a39;
+	--color-light-purple-paragraph: #676886;
+
+	--color-orange-background: #fff1e0;
+	--color-orange-heading: #cc7a23;
+	--color-orange-paragraph: #807f87;
+
+	--color-dark-purple-background: #eae6fd;
+	--color-dark-purple-header: #5249b4;
+	--color-dark-purple-paragraph: #777b93;
+
+	--color-pink-background: #ffe8f2;
+	--color-pink-heading: #cf3982;
+	--color-pink-paragraph: #807b8e;
+
+	--color-dark-background: #0f0f1a;
+	--color-dark-header: #ffffff;
+	--color-dark-paragraph: #9f9fa3;
+
+	--color-light-background: #ffffff;
+	--color-light-header: #01093a;
+	--color-light-paragraph: #525373;
+}
+
+body {
+	line-height: 1.5;
+	font-weight: 400;
+	background-color: #ffffff;
+	color-scheme: light dark;
+
+	font-synthesis: none;
+	text-rendering: optimizelegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}

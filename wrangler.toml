@@ -1,0 +1,10 @@
+name = "guwe-homepage"
+compatibility_date = "2024-01-15"
+pages_build_output_dir = "build"
+
+[build]
+command = "pnpm build"
+
+[[routes]]
+pattern = "/*"
+zone_name = "guwe.no" # Optional: your domain
