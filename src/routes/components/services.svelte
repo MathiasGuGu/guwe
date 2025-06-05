@@ -3,9 +3,6 @@
 </script>
 
 <div class="mt-16 flex w-full flex-col items-center justify-center bg-white px-4 sm:mt-20 md:mt-24">
-	<h2 class="text-lg font-semibold sm:text-xl">
-		Webutviklingstjenester for bedrifter i Stavanger, Kristiansand og Norge
-	</h2>
 	<section
 		id="tjenester"
 		class="grid h-auto min-h-[600px] w-full max-w-7xl grid-cols-1 gap-4 py-8 md:min-h-[800px] md:grid-cols-2 md:gap-6 md:py-12"

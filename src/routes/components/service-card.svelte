@@ -8,7 +8,7 @@
 	// Map color to classes
 	const colorClasses = {
 		purple: {
-			background: 'bg-dark-purple-background',
+			background: 'bg-white',
 			border: 'border-dark-purple-header',
 			heading: 'text-dark-purple-header',
 			paragraph: 'text-dark-purple-paragraph',
@@ -17,7 +17,7 @@
 			hover: 'hover:bg-dark-purple-header/95'
 		},
 		blue: {
-			background: 'bg-blue-background',
+			background: 'bg-white',
 			border: 'border-blue-heading',
 			heading: 'text-blue-heading',
 			paragraph: 'text-blue-paragraph',
@@ -26,7 +26,7 @@
 			hover: 'hover:bg-blue-heading/95'
 		},
 		orange: {
-			background: 'bg-orange-background',
+			background: 'bg-white',
 			border: 'border-orange-heading',
 			heading: 'text-orange-heading',
 			paragraph: 'text-orange-paragraph',
@@ -35,7 +35,7 @@
 			hover: 'hover:bg-orange-heading/95'
 		},
 		pink: {
-			background: 'bg-pink-background',
+			background: 'bg-white',
 			border: 'border-pink-heading',
 			heading: 'text-pink-heading',
 			paragraph: 'text-pink-paragraph',

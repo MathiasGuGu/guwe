@@ -1,27 +1,25 @@
 <section
 	aria-labelledby="about-heading"
-	class="relative mt-6 flex h-auto w-full flex-col items-center justify-start px-4 pb-12"
+	class="  relative mt-24 flex h-auto w-full flex-col items-center justify-start px-4 py-24"
 >
-	<div class="relative h-64 w-64 sm:h-80 sm:w-80 md:h-96 md:w-96">
+	<!-- <div class="relative h-64 w-64 sm:h-80 sm:w-80 md:h-96 md:w-96">
 		<img
 			src="/text.svg"
 			alt="Illustrasjon av computer og telefon som rister hender - symboliserer webutvikling og digitale tjenester"
 			class="size-full rounded object-contain"
 		/>
-	</div>
-	<div id="about" class="-mt-6 flex max-w-7xl flex-col gap-4 sm:-mt-8 md:-mt-12">
+	</div> -->
+	<div id="about" class=" flex max-w-7xl flex-col gap-4">
 		<h2
 			id="about-heading"
-			class="text-light-header text-2xl font-bold sm:text-3xl md:text-start md:text-4xl"
+			class="text-blue-heading text-2xl font-bold sm:text-3xl md:text-start md:text-4xl"
 		>
 			Om meg - freelance webutvikler
 		</h2>
-		<div
-			class="mt-4 flex flex-col items-start justify-center gap-12 space-y-4 md:mt-12 md:flex-row"
-		>
+		<div class="flex flex-col items-start justify-center gap-12 space-y-4 md:flex-row">
 			<div class="space-y-4">
 				<p
-					class="text-dark-purple-paragraph mx-auto max-w-2xl text-start text-base text-balance sm:text-lg"
+					class="text-blue-paragraph mx-auto max-w-2xl text-start text-base text-balance sm:text-lg"
 				>
 					Mitt navn er Mathias, og jeg er en erfaren systemutvikler fra Kristiansand som tilbyr
 					profesjonelle webutviklingstjenester til små bedrifter i Stavanger, Kristiansand og hele
@@ -30,7 +28,7 @@
 				</p>
 
 				<p
-					class="text-dark-purple-paragraph mx-auto max-w-2xl text-start text-base text-balance sm:text-lg"
+					class="text-blue-paragraph mx-auto max-w-2xl text-start text-base text-balance sm:text-lg"
 				>
 					Fordi jeg driver dette som freelance-virksomhet ved siden av min faste stilling, kan jeg
 					tilby konkurransedyktige priser for små bedrifter i Rogaland og Agder som ønsker

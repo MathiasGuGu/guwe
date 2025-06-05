@@ -381,6 +381,6 @@
 	<Process />
 	<Kundecase />
 	<QAndA />
-	<AboutMe />
+	<!-- <AboutMe /> -->
 	<Waitlist />
 </main>
