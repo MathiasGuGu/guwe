@@ -40,11 +40,6 @@ export const questions: Question[] = [
 			'Etter lansering får du full tilgang til nettsiden og alle filer. Jeg tilbyr vedlikeholdspakker som inkluderer sikkerhetskopier, oppdateringer, teknisk support og ytelsesovervåking. Du får også Google Analytics oppsett for å følge besøkstall og brukeratferd, samt månedsrapporter som viser hvordan nettsiden din presterer.'
 	},
 	{
-		question: 'Lager du nettbutikker og e-handel løsninger?',
-		answer:
-			'Ja, jeg utvikler moderne nettbutikker og e-handel løsninger tilpasset norske små bedrifter. Dette inkluderer produktkatalog, handlekurv, sikre betalingsløsninger, og integrasjon med norske betalingstjenester som Vipps og Klarna. Perfekt for bedrifter i Stavanger, Kristiansand eller andre norske byer som ønsker å selge produkter online.'
-	},
-	{
 		question: 'Hvorfor skal jeg velge en lokal freelancer fremfor et webbyrå?',
 		answer:
 			'Som freelance webutvikler har jeg lavere driftskostnader enn store byråer, noe som betyr bedre priser for deg. Du får direkte kontakt med utvikleren (meg), raskere beslutninger, og personlig oppfølging gjennom hele prosjektet. Som lokal aktør forstår jeg markedet i Sør-Norge og kan gi verdifulle råd om lokal digital markedsføring.'
