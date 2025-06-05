@@ -1,23 +1,48 @@
 <script lang="ts">
-	import { QA_LIST } from './q-and-a-list';
-	import QandAAccordion from './q-and-a-accordian.svelte';
+	import QAndAAccordion from './q-and-a-accordian.svelte';
+	import { questions } from './q-and-a-list';
+
 	let openIndex: number | null = null;
+
+	// FAQ Structured Data for Rich Snippets
+	const faqStructuredData = {
+		'@context': 'https://schema.org',
+		'@type': 'FAQPage',
+		mainEntity: questions.map((qa) => ({
+			'@type': 'Question',
+			name: qa.question,
+			acceptedAnswer: {
+				'@type': 'Answer',
+				text: qa.answer
+			}
+		}))
+	};
 </script>
 
-<div class="mt-12 flex w-full flex-col items-center justify-center bg-white px-4">
-	<section class=" h-full w-full max-w-7xl">
-		<h2 class="mb-6 text-center text-2xl font-bold sm:text-3xl">Spørsmål & Svar</h2>
-		<div class="qanda-list divide-y divide-gray-200 rounded-lg text-base sm:text-lg">
-			{#each QA_LIST as qa, idx}
-				<QandAAccordion
+<!-- FAQ Structured Data -->
+<svelte:head>
+	{@html `<script type="application/ld+json">${JSON.stringify(faqStructuredData)}</script>`}
+</svelte:head>
+
+<section
+	class="text-light-header mt-16 flex w-full flex-col items-center justify-center bg-white px-4 sm:mt-20 md:mt-24"
+	aria-labelledby="faq-heading"
+>
+	<div class="w-full max-w-7xl">
+		<h2 id="faq-heading" class="mb-8 text-center text-2xl font-bold sm:text-3xl md:text-4xl">
+			Spørsmål og svar
+		</h2>
+		<div class="mx-auto max-w-7xl divide-y divide-gray-200 rounded-lg">
+			{#each questions as qa, idx}
+				<QAndAAccordion
 					question={qa.question}
 					answer={qa.answer}
 					isOpen={openIndex === idx}
 					onClick={() => (openIndex = openIndex === idx ? null : idx)}
-					contentId={`qanda-content-${idx}`}
-					buttonId={`qanda-btn-${idx}`}
+					contentId={`faq-content-${idx}`}
+					buttonId={`faq-btn-${idx}`}
 				/>
 			{/each}
 		</div>
-	</section>
-</div>
+	</div>
+</section>

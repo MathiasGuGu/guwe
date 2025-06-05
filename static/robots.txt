@@ -1,0 +1,64 @@
+# robots.txt for GUWE - Freelance Webutvikler
+# Website: https://guwe.no
+# Updated: 2025-01-29
+
+User-agent: *
+Allow: /
+
+# Prioritize important pages
+Allow: /$
+Allow: /tjenester
+Allow: /om-mathias
+Allow: /kontakt
+
+# Block unnecessary files and directories
+Disallow: /_app/
+Disallow: /node_modules/
+Disallow: /.svelte-kit/
+Disallow: /build/
+Disallow: /.git/
+Disallow: *.map$
+Disallow: *.js.map$
+Disallow: *.css.map$
+
+# Block development files
+Disallow: /src/
+Disallow: /vite.config.*
+Disallow: /svelte.config.*
+Disallow: /package.json
+Disallow: /pnpm-lock.yaml
+
+# Allow important assets
+Allow: /favicon.png
+Allow: /text.svg
+Allow: /kulien.webp
+Allow: /*.webp$
+Allow: /*.jpg$
+Allow: /*.png$
+Allow: /*.svg$
+
+# Crawl delay for polite crawling
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://guwe.no/sitemap.xml
+
+# Specific rules for search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Block aggressive crawlers
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: ScreamingFrogSEOSpider
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /

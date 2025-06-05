@@ -1,0 +1,26 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Mathias -- Freelance Webutvikler -- mathias@guwe.no
+
+# THANKS
+
+    Alle små bedrifter som stoler på GUWE for sine nettsider
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3, JavaScript
+    SvelteKit, TypeScript
+    Tailwind CSS
+    GSAP for animasjoner
+    Cloudflare Pages hosting
+
+# LOCATION
+
+    Kristiansand, Norge
+
+# LAST UPDATE
+
+    2025-01-29

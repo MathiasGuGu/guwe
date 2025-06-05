@@ -29,27 +29,27 @@
 		<h1
 			class="animate-in mb-2 max-w-4xl text-3xl leading-tight font-extrabold text-balance text-gray-900 sm:text-4xl md:text-5xl lg:text-6xl"
 		>
-			Jeg hjelper deg med å bli synlig på nett uten å betale for mye.
+			Rimelige nettsider for små bedrifter som faktisk fungerer
 		</h1>
 		<p class="animate-in mb-6 max-w-2xl text-base text-gray-700 sm:text-lg">
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis fuga dolorem est
-			assumenda, sunt, soluta mollitia deleniti suscipit hic numquam animi tempora corrupti ducimus
-			pariatur.
+			Freelance webutvikler som betjener Stavanger, Kristiansand og hele Norge. Jeg lager moderne,
+			responsive nettsider med SEO optimalisering til en pris små bedrifter har råd til. Få mer
+			synlighet på nett uten å sprenge budsjettet.
 		</p>
 		<div class="flex flex-col flex-wrap gap-3 sm:flex-row">
 			<a
 				href="#venteliste"
 				class="animate-side bg-dark-background text-dark-header hover:bg-dark-background/80 focus:ring-dark-background inline-flex items-center justify-center gap-2 rounded px-6 py-3 font-semibold shadow transition focus:ring-2 focus:ring-offset-2 focus:outline-none"
-				aria-label="Meld deg på ventelisten"
+				aria-label="Meld deg på ventelisten for å få tilbud på nettside"
 			>
-				Meld deg på ventelisten <Mail size={20} strokeWidth={1.5} />
+				Få tilbud på nettside <Mail size={20} strokeWidth={1.5} />
 			</a>
 			<a
 				href="#tjenester"
 				class="animate-side focus:ring-dark-background hover:bg-dark-background/5 text-light-header inline-flex items-center justify-center gap-2 rounded border bg-white px-6 py-3 font-semibold transition focus:ring-2 focus:ring-offset-2 focus:outline-none"
-				aria-label="Se tjenester"
+				aria-label="Se webutviklingstjenester og priser"
 			>
-				Tjenester <ArrowUpRight size={20} strokeWidth={1.5} />
+				Se tjenester <ArrowUpRight size={20} strokeWidth={1.5} />
 			</a>
 		</div>
 	</section>

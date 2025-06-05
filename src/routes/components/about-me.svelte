@@ -5,23 +5,72 @@
 	<div class="relative h-64 w-64 sm:h-80 sm:w-80 md:h-96 md:w-96">
 		<img
 			src="/text.svg"
-			alt="computer and phone shaking hands"
+			alt="Illustrasjon av computer og telefon som rister hender - symboliserer webutvikling og digitale tjenester"
 			class="size-full rounded object-contain"
 		/>
 	</div>
-	<div id="about" class="-mt-6 flex max-w-4xl flex-col gap-4 sm:-mt-8 md:-mt-12">
+	<div id="about" class="-mt-6 flex max-w-7xl flex-col gap-4 sm:-mt-8 md:-mt-12">
 		<h2
 			id="about-heading"
-			class="text-light-header text-center text-2xl font-bold sm:text-3xl md:text-4xl"
+			class="text-light-header text-2xl font-bold sm:text-3xl md:text-start md:text-4xl"
 		>
-			Hvem er jeg?
+			Om meg - freelance webutvikler
 		</h2>
-		<p
-			class="text-dark-purple-paragraph mx-auto max-w-2xl text-center text-lg text-balance sm:text-xl"
+		<div
+			class="mt-4 flex flex-col items-start justify-center gap-12 space-y-4 md:mt-12 md:flex-row"
 		>
-			Mitt navn er Mathias. Jeg er fulltids systemutvikler fra Kristiansand som driver dette på
-			siden. Jeg har både studert systemutvikling samt litt design, og har god erfaring fra store
-			prosjekter jeg har vært med på gjennom jobb.
-		</p>
+			<div class="space-y-4">
+				<p
+					class="text-dark-purple-paragraph mx-auto max-w-2xl text-start text-base text-balance sm:text-lg"
+				>
+					Mitt navn er Mathias, og jeg er en erfaren systemutvikler fra Kristiansand som tilbyr
+					profesjonelle webutviklingstjenester til små bedrifter i Stavanger, Kristiansand og hele
+					Norge. Med utdanning innen systemutvikling og design, samt solid erfaring fra store
+					prosjekter, leverer jeg kvalitetsløsninger til rimelige priser.
+				</p>
+
+				<p
+					class="text-dark-purple-paragraph mx-auto max-w-2xl text-start text-base text-balance sm:text-lg"
+				>
+					Fordi jeg driver dette som freelance-virksomhet ved siden av min faste stilling, kan jeg
+					tilby konkurransedyktige priser for små bedrifter i Rogaland og Agder som ønsker
+					profesjonelle nettsider uten å sprenge budsjettet. Du får samme kvalitet som hos større
+					byråer, men til en brøkdel av prisen.
+				</p>
+			</div>
+			<!-- <div class="mx-auto mt-0 max-w-7xl">
+				<h3 class="text-dark-purple-header mb-3 text-start text-lg font-semibold">
+					Min ekspertise inkluderer:
+				</h3>
+				<ul
+					class="text-dark-purple-paragraph grid grid-cols-2 gap-2 space-y-2 text-sm sm:text-base"
+				>
+					<li class="flex items-center">
+						<span class="bg-dark-purple-header mr-3 h-2 w-2 rounded-full"></span>
+						Responsive webdesign
+					</li>
+					<li class="flex items-center">
+						<span class="bg-dark-purple-header mr-3 h-2 w-2 rounded-full"></span>
+						SEO optimalisering
+					</li>
+					<li class="flex items-center">
+						<span class="bg-dark-purple-header mr-3 h-2 w-2 rounded-full"></span>
+						Moderne JavaScript/SvelteKit
+					</li>
+					<li class="flex items-center">
+						<span class="bg-dark-purple-header mr-3 h-2 w-2 rounded-full"></span>
+						Performance optimalisering
+					</li>
+					<li class="flex items-center">
+						<span class="bg-dark-purple-header mr-3 h-2 w-2 rounded-full"></span>
+						Teknisk vedlikehold
+					</li>
+					<li class="flex items-center">
+						<span class="bg-dark-purple-header mr-3 h-2 w-2 rounded-full"></span>
+						Google Analytics
+					</li>
+				</ul>
+			</div> -->
+		</div>
 	</div>
 </section>

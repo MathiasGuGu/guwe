@@ -8,7 +8,7 @@
 		},
 		{
 			title: 'Blog',
-			href: '/blog'
+			href: '/'
 		}
 	];
 
@@ -63,9 +63,7 @@
 
 	<!-- Mobile Navigation -->
 	{#if isMobileMenuOpen}
-		<div
-			class="absolute top-16 right-0 left-0 z-50 border-t bg-white shadow-lg sm:top-20 md:hidden"
-		>
+		<div class="absolute top-16 right-0 left-0 z-50 bg-white shadow-lg sm:top-20 md:hidden">
 			<nav aria-label="Mobile hovedmeny" class="flex flex-col space-y-4 px-4 py-4">
 				{#each navItems as item}
 					<a

@@ -1,0 +1,31 @@
+{
+    "name": "GUWE - Freelance Webutvikler",
+    "short_name": "GUWE",
+    "description": "Rimelige nettsider for små bedrifter. Freelance webutvikler fra Kristiansand.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#5249b4",
+    "orientation": "portrait-primary",
+    "scope": "/",
+    "lang": "no",
+    "dir": "ltr",
+    "categories": [
+        "business",
+        "productivity"
+    ],
+    "icons": [
+        {
+            "src": "/favicon.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/favicon.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
