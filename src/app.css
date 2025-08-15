@@ -30,6 +30,8 @@
 	--color-light-background: #ffffff;
 	--color-light-header: #01093a;
 	--color-light-paragraph: #525373;
+
+	--font-sora: 'Sora', sans-serif;
 }
 
 body {

@@ -1,56 +1,56 @@
 <script>
-	import { ArrowUpRight, Mail } from 'lucide-svelte';
-	import { onMount } from 'svelte';
-	import gsap from 'gsap';
-
-	onMount(() => {
-		const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-		if (prefersReducedMotion) return;
-		const elements = document.querySelectorAll('.animate-in');
-		const links = document.querySelectorAll('.animate-side');
-		let tl = gsap.timeline();
-		tl.fromTo(
-			elements,
-			{ y: 40, opacity: 0 },
-			{ y: 0, opacity: 1, duration: 0.6, stagger: 0.14, ease: 'power3.out' }
-		).fromTo(
-			links,
-			{ x: 20, opacity: 0 },
-			{ x: 0, opacity: 1, duration: 0.5, stagger: 0.18, ease: 'power3.out' },
-			'-=0.3'
-		);
-	});
+	import { DotLottieSvelte } from '@lottiefiles/dotlottie-svelte';
+	import { ArrowRight, ArrowUpRight, Mail } from 'lucide-svelte';
 </script>
 
 <main
-	class="mt-16 flex w-full flex-col items-center justify-center bg-white px-4 sm:mt-20 md:mt-24"
+	class="mt-16 flex w-full flex-col items-center justify-center bg-white px-4 sm:mt-20 md:mt-32"
 >
-	<section class="flex w-full max-w-7xl flex-col items-start gap-4">
-		<h1
-			class="animate-in mb-2 max-w-4xl text-3xl leading-tight font-extrabold text-balance text-gray-900 sm:text-4xl md:text-5xl lg:text-6xl"
-		>
-			Rimelige nettsider for små bedrifter som faktisk fungerer
-		</h1>
-		<p class="animate-in mb-6 max-w-2xl text-base text-gray-700 sm:text-lg">
-			Freelance webutvikler som betjener Stavanger, Kristiansand og hele Norge. Jeg lager moderne,
-			responsive nettsider med SEO optimalisering til en pris små bedrifter har råd til. Få mer
-			synlighet på nett uten å sprenge budsjettet.
-		</p>
-		<div class="flex flex-col flex-wrap gap-3 sm:flex-row">
+	<section class="relative flex w-full max-w-7xl flex-col items-start gap-4">
+		<div class="space-y-4">
+			<h1
+				class="animate-in text-light-header max-w-4xl text-5xl leading-12 font-medium text-balance sm:text-4xl md:text-6xl md:leading-16"
+			>
+				Rimelige nettsider for små bedrifter som faktisk
+				<span class="text-dark-background relative font-bold italic"> fungerer </span>
+			</h1>
+			<p class="animate-in text-light-paragraph max-w-2xl text-lg leading-relaxed">
+				Freelance webutvikler som betjener Stavanger, Kristiansand og hele Norge. Jeg lager moderne,
+				responsive nettsider med SEO optimalisering til en pris små bedrifter har råd til.
+			</p>
+		</div>
+		<div class="flex flex-col gap-3 pt-2 sm:flex-row">
 			<a
 				href="#venteliste"
-				class="animate-side bg-dark-background text-dark-header hover:bg-dark-background/80 focus:ring-dark-background inline-flex items-center justify-center gap-2 rounded px-6 py-3 font-semibold shadow transition focus:ring-2 focus:ring-offset-2 focus:outline-none"
+				class="animate-side bg-dark-background text-dark-header hover:bg-dark-background/80 focus:ring-dark-background group inline-flex items-center justify-center gap-2 rounded-full px-5 py-2 text-sm font-semibold shadow transition-all duration-150 hover:gap-3 focus:ring-2 focus:ring-offset-2 focus:outline-none lg:px-6 lg:py-2.5 lg:text-base"
 				aria-label="Meld deg på ventelisten for å få tilbud på nettside"
 			>
-				Få tilbud på nettside <Mail size={20} strokeWidth={1.5} />
+				Få tilbud på nettside
+				<ArrowRight
+					size={16}
+					strokeWidth={1.5}
+					class="transition-transform group-hover:translate-x-0.5"
+				/>
 			</a>
 			<a
 				href="#tjenester"
-				class="animate-side focus:ring-dark-background hover:bg-dark-background/5 text-light-header inline-flex items-center justify-center gap-2 rounded border bg-white px-6 py-3 font-semibold transition focus:ring-2 focus:ring-offset-2 focus:outline-none"
+				class="animate-side focus:ring-dark-background text-light-header group inline-flex items-center justify-center gap-2 rounded-full border border-gray-200 bg-white px-5 py-2 text-sm font-semibold transition-all duration-150 hover:border-gray-300 hover:bg-gray-50 focus:ring-2 focus:ring-offset-2 focus:outline-none lg:px-6 lg:py-2.5 lg:text-base"
 				aria-label="Se webutviklingstjenester og priser"
 			>
-				Se tjenester <ArrowUpRight size={20} strokeWidth={1.5} />
+				Se tjenester
+				<ArrowUpRight
+					size={16}
+					strokeWidth={1.5}
+					class="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+				/>
 			</a>
+		</div>
+		<div class="absolute right-20 bottom-0 hidden size-80 opacity-20 md:block">
+			<DotLottieSvelte
+				src="https://lottie.host/a7432071-f655-4642-80fe-40f279667252/isYElFQhiR.lottie"
+				autoplay
+				segment={[0, 38]}
+			/>
 		</div>
 	</section>
 </main>

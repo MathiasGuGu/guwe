@@ -2,39 +2,59 @@
 	import ServiceCard from './service-card.svelte';
 </script>
 
-<div class="mt-16 flex w-full flex-col items-center justify-center bg-white px-4 sm:mt-20 md:mt-24">
-	<section
-		id="tjenester"
-		class="grid h-auto min-h-[600px] w-full max-w-7xl grid-cols-1 gap-4 py-8 md:min-h-[800px] md:grid-cols-2 md:gap-6 md:py-12"
-		aria-label="Oversikt over webutviklingstjenester for små bedrifter i Norge"
-	>
-		<ServiceCard
-			title="Lokal SEO Optimalisering for Stavanger og Kristiansand"
-			description="Få din bedrift høyere opp på Google i lokale søk. Jeg spesialiserer meg på lokal SEO for bedrifter i Stavanger, Kristiansand og hele Norge. Inkluderer Google My Business optimalisering, lokale søkeord, teknisk SEO, og synlighet for 'bedrifter i nærheten av meg' søk."
-			buttonText="Les om lokal SEO tjenester"
-			color="purple"
-			boxShadow="10px 12px 0 0 #5249b425"
-		/>
-		<ServiceCard
-			title="Lynraske Nettsider Optimalisert for Norske Brukere"
-			description="Moderne nettsider optimalisert for hastighet og ytelse med fokus på norske brukere. Jeg bygger responsive løsninger som laster raskt på mobile enheter, perfekt for bedrifter som ønsker å nå kunder i Rogaland, Agder og resten av Norge. Optimalisert for Core Web Vitals og Google PageSpeed."
-			buttonText="Les om ytelse-optimalisering"
-			color="blue"
-			boxShadow="10px 12px 0 0 #1f7b8f25"
-		/>
-		<ServiceCard
-			title="Responsivt Design for Mobile-First Norge"
-			description="Profesjonelle nettsider som ser perfekte ut på alle enheter, spesielt tilpasset norske mobile brukere. Med over 90% av nordmenn som bruker mobil til nettsøk, sikrer jeg at bedriften din presenteres optimalt uansett enhet. Ideell for lokale bedrifter i Sør-Norge."
-			buttonText="Les om responsivt design"
-			color="orange"
-			boxShadow="10px 12px 0 0 #cc7a2325"
-		/>
-		<ServiceCard
-			title="Vedlikehold og Norsk Hosting Support"
-			description="Løpende vedlikehold, sikkerhet og analyse av nettsiden din med fokus på norske hostingleverandører. Jeg sørger for rask lastetid for besøkende fra Norge, .no domeneregistrering, GDPR-compliance, Google Analytics oppsett, og månedlige rapporter om din nettsides ytelse."
-			buttonText="Les om vedlikehold og hosting"
-			color="pink"
-			boxShadow="10px 12px 0 0 #cf398225"
-		/>
-	</section>
+<div
+	class="mt-16 flex w-full flex-col items-center justify-center px-4 py-12 sm:mt-20 sm:py-16 md:mt-24"
+>
+	<div class="w-full max-w-7xl">
+		<!-- Section Header -->
+		<div class="mb-8 text-center">
+			<h2
+				class="text-light-header font-sora mb-2 text-xl font-medium underline sm:text-3xl md:text-4xl"
+			>
+				Tjenester som <span class="text-dark-background">levererer</span>
+			</h2>
+			<p class="text-light-paragraph mx-auto max-w-2xl text-base leading-relaxed">
+				Jeg tilbyr skreddersydde webutviklingstjenester som hjelper din bedrift å vokse online.
+			</p>
+		</div>
+
+		<section
+			id="tjenester"
+			class="grid h-auto w-full grid-cols-1 gap-6 md:grid-cols-2 lg:gap-8"
+			aria-label="Oversikt over webutviklingstjenester for små bedrifter i Norge"
+		>
+			<ServiceCard
+				title="Lokal SEO for Stavanger & Kristiansand"
+				description="Få bedriften din høyere opp på Google i lokale søk. Spesialisert på Google My Business, lokale søkeord og teknisk SEO for norske bedrifter."
+				buttonText="Lokal SEO tjenester"
+				color="purple"
+				boxShadow="10px 12px 0 0 #5249b425"
+				icon="search"
+			/>
+			<ServiceCard
+				title="Lynraske Nettsider for Norge"
+				description="Moderne, responsive nettsider optimalisert for hastighet og mobile enheter. Perfekt for norske bedrifter med fokus på Core Web Vitals og Google PageSpeed."
+				buttonText="Ytelse-optimalisering"
+				color="blue"
+				boxShadow="10px 12px 0 0 #1f7b8f25"
+				icon="zap"
+			/>
+			<ServiceCard
+				title="Mobile-First Responsivt Design"
+				description="Profesjonelle nettsider som ser perfekte ut på alle enheter. Spesielt tilpasset norske mobile brukere hvor 90% bruker mobil til nettsøk."
+				buttonText="Responsivt design"
+				color="orange"
+				boxShadow="10px 12px 0 0 #cc7a2325"
+				icon="smartphone"
+			/>
+			<ServiceCard
+				title="Vedlikehold & Norsk Hosting"
+				description="Løpende vedlikehold, sikkerhet og analyse med fokus på norske hostingleverandører. Inkluderer .no domener, GDPR-compliance og Google Analytics."
+				buttonText="Vedlikehold & hosting"
+				color="pink"
+				boxShadow="10px 12px 0 0 #cf398225"
+				icon="shield"
+			/>
+		</section>
+	</div>
 </div>

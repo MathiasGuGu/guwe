@@ -14,6 +14,36 @@ export const GET: RequestHandler = async () => {
 			changefreq: 'weekly',
 			priority: '1.0',
 			geoTarget: 'Stavanger, Kristiansand, Norge'
+		},
+		{
+			url: '/#venteliste',
+			lastmod: today,
+			changefreq: 'weekly',
+			priority: '0.8'
+		},
+		{
+			url: '/#about',
+			lastmod: today,
+			changefreq: 'monthly',
+			priority: '0.6'
+		},
+		{
+			url: '/blog',
+			lastmod: today,
+			changefreq: 'monthly',
+			priority: '0.6'
+		},
+		{
+			url: '/blog/posts/hva-er-seo',
+			lastmod: today,
+			changefreq: 'monthly',
+			priority: '0.6'
+		},
+		{
+			url: '/blog/posts/seo-for-bedre-synlighet',
+			lastmod: today,
+			changefreq: 'monthly',
+			priority: '0.6'
 		}
 	];
 

@@ -1,74 +1,68 @@
 <section
 	aria-labelledby="about-heading"
-	class="  relative mt-24 flex h-auto w-full flex-col items-center justify-start px-4 py-24"
+	class="bg-white relative flex h-auto w-full flex-col items-center justify-start px-4 py-12 sm:py-16 md:py-20"
 >
-	<!-- <div class="relative h-64 w-64 sm:h-80 sm:w-80 md:h-96 md:w-96">
-		<img
-			src="/text.svg"
-			alt="Illustrasjon av computer og telefon som rister hender - symboliserer webutvikling og digitale tjenester"
-			class="size-full rounded object-contain"
-		/>
-	</div> -->
-	<div id="about" class=" flex max-w-7xl flex-col gap-4">
-		<h2
-			id="about-heading"
-			class="text-blue-heading text-2xl font-bold sm:text-3xl md:text-start md:text-4xl"
-		>
-			Om meg - freelance webutvikler
-		</h2>
-		<div class="flex flex-col items-start justify-center gap-12 space-y-4 md:flex-row">
-			<div class="space-y-4">
-				<p
-					class="text-blue-paragraph mx-auto max-w-2xl text-start text-base text-balance sm:text-lg"
-				>
-					Mitt navn er Mathias, og jeg er en erfaren systemutvikler fra Kristiansand som tilbyr
-					profesjonelle webutviklingstjenester til små bedrifter i Stavanger, Kristiansand og hele
-					Norge. Med utdanning innen systemutvikling og design, samt solid erfaring fra store
-					prosjekter, leverer jeg kvalitetsløsninger til rimelige priser.
-				</p>
+	<div id="about" class="flex w-full max-w-7xl flex-col gap-6">
+		<div class="text-center">
+			<h2
+				id="about-heading"
+				class="text-light-header mb-2 text-2xl font-bold sm:text-3xl md:text-4xl"
+			>
+				Om <span class="text-blue-heading">meg</span>
+			</h2>
+			<p class="text-light-paragraph mx-auto max-w-2xl text-base leading-relaxed">
+				Freelance webutvikler som leverer kvalitetsløsninger til rimelige priser
+			</p>
+		</div>
 
-				<p
-					class="text-blue-paragraph mx-auto max-w-2xl text-start text-base text-balance sm:text-lg"
-				>
-					Fordi jeg driver dette som freelance-virksomhet ved siden av min faste stilling, kan jeg
-					tilby konkurransedyktige priser for små bedrifter i Rogaland og Agder som ønsker
-					profesjonelle nettsider uten å sprenge budsjettet. Du får samme kvalitet som hos større
-					byråer, men til en brøkdel av prisen.
-				</p>
+		<div class="flex flex-col items-center justify-center gap-8 md:flex-row md:items-start md:gap-12">
+			<div class="flex-1 space-y-4 text-center md:text-left">
+				<div class="space-y-3">
+					<p class="text-blue-paragraph text-base leading-relaxed">
+						Mitt navn er <strong class="text-blue-heading font-semibold">Mathias</strong>, og jeg er en erfaren systemutvikler fra Kristiansand som tilbyr
+						profesjonelle webutviklingstjenester til små bedrifter i Stavanger, Kristiansand og hele
+						Norge.
+					</p>
+
+					<p class="text-blue-paragraph text-base leading-relaxed">
+						Med utdanning innen systemutvikling og design, samt solid erfaring fra store
+						prosjekter, leverer jeg kvalitetsløsninger til rimelige priser. Du får samme kvalitet som hos større
+						byråer, men til en brøkdel av prisen.
+					</p>
+				</div>
 			</div>
-			<!-- <div class="mx-auto mt-0 max-w-7xl">
-				<h3 class="text-dark-purple-header mb-3 text-start text-lg font-semibold">
+			
+			<div class="bg-blue-background/30 rounded-xl p-6">
+				<h3 class="text-blue-heading mb-4 text-lg font-semibold text-center md:text-left">
 					Min ekspertise inkluderer:
 				</h3>
-				<ul
-					class="text-dark-purple-paragraph grid grid-cols-2 gap-2 space-y-2 text-sm sm:text-base"
-				>
+				<ul class="grid grid-cols-1 gap-3 sm:grid-cols-2">
 					<li class="flex items-center">
-						<span class="bg-dark-purple-header mr-3 h-2 w-2 rounded-full"></span>
-						Responsive webdesign
+						<span class="bg-blue-heading mr-3 h-2 w-2 rounded-full flex-shrink-0"></span>
+						<span class="text-blue-paragraph text-sm">Responsive webdesign</span>
 					</li>
 					<li class="flex items-center">
-						<span class="bg-dark-purple-header mr-3 h-2 w-2 rounded-full"></span>
-						SEO optimalisering
+						<span class="bg-blue-heading mr-3 h-2 w-2 rounded-full flex-shrink-0"></span>
+						<span class="text-blue-paragraph text-sm">SEO optimalisering</span>
 					</li>
 					<li class="flex items-center">
-						<span class="bg-dark-purple-header mr-3 h-2 w-2 rounded-full"></span>
-						Moderne JavaScript/SvelteKit
+						<span class="bg-blue-heading mr-3 h-2 w-2 rounded-full flex-shrink-0"></span>
+						<span class="text-blue-paragraph text-sm">Moderne JavaScript/SvelteKit</span>
 					</li>
 					<li class="flex items-center">
-						<span class="bg-dark-purple-header mr-3 h-2 w-2 rounded-full"></span>
-						Performance optimalisering
+						<span class="bg-blue-heading mr-3 h-2 w-2 rounded-full flex-shrink-0"></span>
+						<span class="text-blue-paragraph text-sm">Performance optimalisering</span>
 					</li>
 					<li class="flex items-center">
-						<span class="bg-dark-purple-header mr-3 h-2 w-2 rounded-full"></span>
-						Teknisk vedlikehold
+						<span class="bg-blue-heading mr-3 h-2 w-2 rounded-full flex-shrink-0"></span>
+						<span class="text-blue-paragraph text-sm">Teknisk vedlikehold</span>
 					</li>
 					<li class="flex items-center">
-						<span class="bg-dark-purple-header mr-3 h-2 w-2 rounded-full"></span>
-						Google Analytics
+						<span class="bg-blue-heading mr-3 h-2 w-2 rounded-full flex-shrink-0"></span>
+						<span class="text-blue-paragraph text-sm">Google Analytics</span>
 					</li>
 				</ul>
-			</div> -->
+			</div>
 		</div>
 	</div>
 </section>
