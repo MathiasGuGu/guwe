@@ -10,11 +10,11 @@
 	// Expanded SEO metadata for multi-location targeting
 	const seoData = {
 		title:
-			'GUWE - Billige Nettsider for Små Bedrifter | Freelance Webutvikler Stavanger & Kristiansand',
+			'Profesjonelle Nettsider som Får Deg Kunder | Fra 15.000 kr | Stavanger & Kristiansand',
 		description:
-			'Få profesjonelle nettsider til en rimelig pris. Erfaren freelance webutvikler som betjener Stavanger, Kristiansand og hele Norge. Moderne, responsive nettsider med SEO optimalisering for små bedrifter.',
+			'Vi lager moderne nettsider og landingssider som konverterer besøkende til kunder. Fra kun 15.000 kr - samme kvalitet som store byråer, til en brøkdel av prisen. Betjener Stavanger, Kristiansand og hele Norge.',
 		keywords:
-			'nettsider for små bedrifter, billig nettside, freelance webutvikler, webutvikling Stavanger, webutvikling Kristiansand, responsive design, SEO optimalisering, rimelige hjemmesider Norge, webutvikler Rogaland, webutvikler Agder, nettside firma, billige nettsider Norge, profesjonell webdesign, lokal webutvikler',
+			'billige nettsider, rimelige nettsider, billig webutvikler, nettsider halv pris, freelance webutvikler, webutvikling Stavanger, webutvikling Kristiansand, landingssider, bedriftsnettsider billig, responsive design billig, SEO optimalisering rimelig, webutvikler Rogaland, webutvikler Agder, billig nettside Norge, profesjonell webdesign billig, lokal webutvikler, nettside 15000 kr, billig hjemmeside, rimelig hjemmeside, nettside småbedrift, web design billig, hjemmeside priser, nettside kostnad, webbyrå billig, billig webdesign, rimelig webdesign, hjemmeside Stavanger, hjemmeside Kristiansand',
 		canonicalUrl: 'https://guwe.no',
 		ogImage: 'https://guwe.no/kulien.webp',
 		publishedDate: '2025-01-29T12:00:00+01:00',
@@ -31,7 +31,7 @@
 				name: 'GUWE - Freelance Webutvikler',
 				alternateName: ['Mathias Webutvikler', 'GUWE Webdesign', 'Freelance Webutvikler Norge'],
 				description:
-					'Profesjonell freelance webutvikler som betjener Stavanger, Kristiansand og hele Norge. Rimelige, moderne nettsider for små bedrifter med SEO optimalisering og responsive design.',
+					'Vi lager profesjonelle nettsider og landingssider som faktisk får deg kunder. Betjener Stavanger, Kristiansand og hele Norge. Samme kvalitet som store byråer - fra kun 15.000 kr.',
 				url: 'https://guwe.no',
 				logo: {
 					'@type': 'ImageObject',
@@ -140,8 +140,8 @@
 							'@type': 'Offer',
 							itemOffered: {
 								'@type': 'Service',
-								name: 'E-handel Løsninger',
-								description: 'Moderne nettbutikker med norske betalingsløsninger'
+								name: 'Landingssider og Blogfunksjonalitet',
+								description: 'Konverteringsoptimaliserte landingssider og bloggløsninger'
 							}
 						}
 					]
@@ -152,7 +152,7 @@
 				'@id': 'https://guwe.no/#service',
 				name: 'Webutviklingstjenester for Små Bedrifter',
 				description:
-					'Komplett webutviklingstjenester for små bedrifter i Stavanger, Kristiansand og hele Norge. Inkluderer responsive design, SEO optimalisering, og løpende vedlikehold.',
+					'Profesjonelle webutviklingstjenester for små bedrifter i Stavanger, Kristiansand og hele Norge. Vi lager nettsider og landingssider som konverterer besøkende til kunder - til en brøkdel av byrå-prisene.',
 				provider: {
 					'@id': 'https://guwe.no/#organization'
 				},
@@ -175,7 +175,8 @@
 					'Responsive Design',
 					'SEO Optimalisering',
 					'Nettside Vedlikehold',
-					'E-handel Utvikling',
+					'Landingssider',
+					'Blogfunksjonalitet',
 					'Mobile-First Design',
 					'Performance Optimalisering',
 					'Google Analytics Oppsett'
@@ -184,15 +185,15 @@
 					{
 						'@type': 'Offer',
 						name: 'Standard Bedriftsnettside',
-						description: 'Profesjonell bedriftsnettside med responsive design og SEO',
+						description: 'Profesjonell bedriftsnettside med responsive design og SEO - halv pris av webbyråer',
 						priceRange: '15000-25000 NOK',
 						priceCurrency: 'NOK'
 					},
 					{
 						'@type': 'Offer',
-						name: 'Avansert Nettbutikk',
-						description: 'Komplett e-handel løsning med betalingsintegrasjon',
-						priceRange: '30000-50000 NOK',
+						name: 'Landingsside med Blog',
+						description: 'Konverteringsoptimalisert landingsside med bloggfunksjonalitet',
+						priceRange: '20000-35000 NOK',
 						priceCurrency: 'NOK'
 					}
 				]
@@ -201,8 +202,8 @@
 				'@type': 'WebSite',
 				'@id': 'https://guwe.no/#website',
 				url: 'https://guwe.no',
-				name: 'GUWE - Freelance Webutvikler',
-				description: 'Profesjonelle nettsider for små bedrifter i Stavanger, Kristiansand og Norge',
+				name: 'GUWE - Nettsider som Får Deg Kunder',
+				description: 'Profesjonelle nettsider og landingssider som konverterer besøkende til kunder - Stavanger, Kristiansand og Norge',
 				publisher: {
 					'@id': 'https://guwe.no/#organization'
 				},
@@ -216,9 +217,9 @@
 					'@type': 'WebPage',
 					'@id': 'https://guwe.no/#webpage',
 					url: 'https://guwe.no',
-					name: 'Rimelige Nettsider for Små Bedrifter - Stavanger & Kristiansand',
+					name: 'Billige Nettsider til Halv Pris av Webbyråer - Stavanger & Kristiansand',
 					description:
-						'Profesjonell webutvikler som betjener bedrifter i Stavanger, Kristiansand og hele Norge',
+						'Profesjonell webutvikler som betjener bedrifter i Stavanger, Kristiansand og hele Norge - nettsider fra kun 15.000 kr',
 					inLanguage: 'no'
 				}
 			},
@@ -230,7 +231,7 @@
 				familyName: 'Gundersen',
 				jobTitle: 'Freelance Webutvikler',
 				description:
-					'Erfaren systemutvikler som tilbyr rimelige webutviklingstjenester til små bedrifter i Stavanger, Kristiansand og hele Norge. Spesialiserer seg på moderne, SEO-optimaliserte nettsider.',
+					'Erfaren systemutvikler som tilbyr webutviklingstjenester til halv pris av webbyråer for små bedrifter i Stavanger, Kristiansand og hele Norge. Spesialiserer seg på moderne, SEO-optimaliserte nettsider og landingssider.',
 				url: 'https://guwe.no/',
 				image: 'https://guwe.no/kulien.webp',
 				address: {
@@ -251,7 +252,8 @@
 					'CSS',
 					'SvelteKit',
 					'Performance Optimalisering',
-					'E-handel',
+					'Landingssider',
+					'Blogfunksjonalitet',
 					'Google Analytics'
 				],
 				hasOccupation: {
@@ -284,8 +286,8 @@
 						name: 'Norge'
 					}
 				},
-				slogan: 'Rimelige nettsider for små bedrifter som faktisk fungerer',
-				keywords: 'webutvikling, nettsider, SEO, responsive design, Stavanger, Kristiansand'
+				slogan: 'Nettsider som faktisk får deg kunder',
+				keywords: 'billige nettsider, rimelige nettsider, webutvikling, landingssider, SEO, responsive design, Stavanger, Kristiansand'
 			}
 		]
 	};

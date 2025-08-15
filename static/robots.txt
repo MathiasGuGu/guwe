@@ -1,6 +1,6 @@
-# robots.txt for GUWE - Freelance Webutvikler
+# robots.txt for GUWE - Billige Nettsider
 # Website: https://guwe.no
-# Updated: 2025-01-29
+# Updated: 2025-08-15
 
 User-agent: *
 Allow: /

@@ -11,12 +11,14 @@
 			<h1
 				class="animate-in text-light-header max-w-4xl text-5xl leading-12 font-medium text-balance sm:text-4xl md:text-6xl md:leading-16"
 			>
-				Rimelige nettsider for små bedrifter som faktisk
-				<span class="text-dark-background relative font-bold italic"> fungerer </span>
+				Vi lager <span class="text-dark-background relative font-bold italic"
+					>profesjonelle nettsider</span
+				> som faktisk får deg kunder
 			</h1>
 			<p class="animate-in text-light-paragraph max-w-2xl text-lg leading-relaxed">
-				Freelance webutvikler som betjener Stavanger, Kristiansand og hele Norge. Jeg lager moderne,
-				responsive nettsider med SEO optimalisering til en pris små bedrifter har råd til.
+				Moderne nettsider og landingssider som konverterer besøkende til kunder. Fra kun 15.000 kr -
+				samme kvalitet som store byråer, til en brøkdel av prisen. Betjener små bedrifter i
+				Stavanger, Kristiansand og hele Norge.
 			</p>
 		</div>
 		<div class="flex flex-col gap-3 pt-2 sm:flex-row">

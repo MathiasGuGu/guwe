@@ -71,8 +71,9 @@
 				<!-- Left cards (index 0, 2, 4...) positioned higher, Right cards (index 1, 3, 5...) positioned lower -->
 				<div
 					class="relative mb-16 {index % 2 === 0
-						? 'md:float-left md:clear-left md:w-1/2 md:pr-12 md:mb-20'
-						: 'md:float-right md:clear-right md:mt-96 md:w-1/2 md:pl-12'} {index !== 2 && 'md:mb-64'}"
+						? 'md:float-left md:clear-left md:mb-20 md:w-1/2 md:pr-12'
+						: 'md:float-right md:clear-right md:mt-96 md:w-1/2 md:pl-12'} {index !== 2 &&
+						'md:mb-64'}"
 				>
 					<div class="mx-auto w-full max-w-lg">
 						<!-- Animation Section -->

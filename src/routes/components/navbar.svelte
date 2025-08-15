@@ -6,7 +6,15 @@
 			title: 'Forside',
 			href: '/'
 		},
-		{ title: 'Blog', href: '/blog' }
+		{
+			title: 'Tjenester',
+			href: '/'
+		},
+		{
+			title: 'Kundecaser',
+			href: '/'
+		},
+		{ title: 'Fagblogg', href: '/blog' }
 	];
 
 	let isMobileMenuOpen = $state(false);
@@ -67,7 +75,7 @@
 			<nav aria-label="Mobile hovedmeny" class="flex flex-col space-y-4 px-4 py-4">
 				{#each navItems as item}
 					<a
-						class="text-light-paragraph hover:text-light-header py-2 text-lg transition-colors"
+						class="text-light-paragraph hover:text-light-header font-sora py-2 text-lg transition-colors"
 						href={item.href}
 						onclick={handleCloseMobileMenu}
 					>
