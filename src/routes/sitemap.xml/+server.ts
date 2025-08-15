@@ -16,7 +16,7 @@ export const GET: RequestHandler = async () => {
 			geoTarget: 'Stavanger, Kristiansand, Norge'
 		},
 		{
-			url: '/#venteliste',
+			url: '/#contact-form',
 			lastmod: today,
 			changefreq: 'weekly',
 			priority: '0.8'
@@ -75,12 +75,10 @@ ${pages
 
   <!-- Enhanced Image URLs with location-specific metadata -->
   <url>
-    <loc>${baseUrl}/text.svg</loc>
     <lastmod>${today}</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
     <image:image>
-      <image:loc>${baseUrl}/text.svg</image:loc>
       <image:caption>Computer og telefon illustrasjon for webutviklingstjenester i Stavanger og Kristiansand</image:caption>
       <image:title>GUWE Webutviklingstjenester - Freelance webutvikler Norge</image:title>
       <image:geo_location>Stavanger, Kristiansand, Norge</image:geo_location>
@@ -110,7 +108,7 @@ ${pages
   </url>
 
   <url>
-    <loc>${baseUrl}/#venteliste</loc>
+    <loc>${baseUrl}/#contact-form</loc>
     <lastmod>${today}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>

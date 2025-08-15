@@ -88,7 +88,7 @@
 		</p>
 	</div>
 	<a
-		href="#venteliste"
+		href="#contact-form"
 		class="{useAltButton ? colorClasses[color].button : colorClasses[color].buttonAlt} {useAltButton
 			? colorClasses[color].hover
 			: colorClasses[color]

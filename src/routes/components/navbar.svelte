@@ -34,7 +34,7 @@
 	<div
 		class="flex size-full max-w-7xl items-center justify-between border-b border-zinc-100 px-4 md:px-0"
 	>
-		<span aria-label="GUWE logo" class="text-xl font-semibold tracking-tighter md:text-2xl"
+		<span aria-label="GUWE logo" class="text-xl font-black tracking-tighter md:text-2xl"
 			>GU<span class="italic">W</span>E</span
 		>
 
@@ -47,7 +47,7 @@
 				<a class=" transition-all hover:border-b-2" href={item.href}>{item.title}</a>
 			{/each}
 			<a
-				href="/#venteliste"
+				href="/#contact-form"
 				class="bg-dark-background text-dark-header hover:bg-dark-background/80 focus:ring-dark-background inline-flex items-center gap-2 rounded-full px-3 py-1 transition focus:ring-2 focus:ring-offset-2 focus:outline-none lg:px-5 lg:py-2 lg:text-sm"
 				aria-label="Med deg på ventelisten"
 			>
@@ -83,7 +83,7 @@
 					</a>
 				{/each}
 				<a
-					href="/#venteliste"
+					href="/#contact-form"
 					class="bg-dark-background text-dark-header hover:bg-dark-background/80 focus:ring-dark-background mt-4 inline-flex items-center justify-center gap-2 rounded px-6 py-3 text-base transition focus:ring-2 focus:ring-offset-2 focus:outline-none"
 					aria-label="Med deg på ventelisten"
 					onclick={handleCloseMobileMenu}

@@ -5,12 +5,11 @@
 	import Process from './components/process.svelte';
 	import QAndA from './components/q-and-a.svelte';
 	import Services from './components/services.svelte';
-	import Waitlist from './components/waitlist.svelte';
+	import ContactForm from './components/contact-form.svelte';
 
 	// Expanded SEO metadata for multi-location targeting
 	const seoData = {
-		title:
-			'Profesjonelle Nettsider som Får Deg Kunder | Fra 15.000 kr | Stavanger & Kristiansand',
+		title: 'Profesjonelle Nettsider som Får Deg Kunder | Fra 15.000 kr | Stavanger & Kristiansand',
 		description:
 			'Vi lager moderne nettsider og landingssider som konverterer besøkende til kunder. Fra kun 15.000 kr - samme kvalitet som store byråer, til en brøkdel av prisen. Betjener Stavanger, Kristiansand og hele Norge.',
 		keywords:
@@ -185,7 +184,8 @@
 					{
 						'@type': 'Offer',
 						name: 'Standard Bedriftsnettside',
-						description: 'Profesjonell bedriftsnettside med responsive design og SEO - halv pris av webbyråer',
+						description:
+							'Profesjonell bedriftsnettside med responsive design og SEO - halv pris av webbyråer',
 						priceRange: '15000-25000 NOK',
 						priceCurrency: 'NOK'
 					},
@@ -203,7 +203,8 @@
 				'@id': 'https://guwe.no/#website',
 				url: 'https://guwe.no',
 				name: 'GUWE - Nettsider som Får Deg Kunder',
-				description: 'Profesjonelle nettsider og landingssider som konverterer besøkende til kunder - Stavanger, Kristiansand og Norge',
+				description:
+					'Profesjonelle nettsider og landingssider som konverterer besøkende til kunder - Stavanger, Kristiansand og Norge',
 				publisher: {
 					'@id': 'https://guwe.no/#organization'
 				},
@@ -287,7 +288,8 @@
 					}
 				},
 				slogan: 'Nettsider som faktisk får deg kunder',
-				keywords: 'billige nettsider, rimelige nettsider, webutvikling, landingssider, SEO, responsive design, Stavanger, Kristiansand'
+				keywords:
+					'billige nettsider, rimelige nettsider, webutvikling, landingssider, SEO, responsive design, Stavanger, Kristiansand'
 			}
 		]
 	};
@@ -360,7 +362,6 @@
 
 	<!-- Preload critical resources -->
 	<link rel="preload" href="/kulien.webp" as="image" type="image/webp" />
-	<link rel="preload" href="/text.svg" as="image" type="image/svg+xml" />
 
 	<!-- Additional SEO Optimizations -->
 	<meta
@@ -384,5 +385,5 @@
 	<Kundecase />
 	<QAndA />
 	<!-- <AboutMe /> -->
-	<Waitlist />
+	<ContactForm />
 </main>
